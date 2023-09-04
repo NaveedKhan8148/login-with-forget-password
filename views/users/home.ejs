@@ -1,0 +1,14 @@
+<%- include('../layout/header.ejs'); %>
+ <% if(typeof message !=='undefined'){
+  %>
+     <p style="color:green;"><%= message%></p>
+  <%
+ }
+%>
+
+
+
+<h1>Welcome you are login now</h1>
+
+<a href="/logout"> Logout </a>
+<%- include('../layout/footer.ejs'); %>
